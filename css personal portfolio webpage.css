@@ -21,6 +21,27 @@ header {
 }
 
 
+body::-webkit-scrollbar {
+  width: 17px;  
+              
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(13, 15, 33, 1);
+         
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(97, 139, 255);        
+  border: 3px solid rgb(97, 139, 255);   
+}
+
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(241, 0, 0);        
+  border: 3px solid rgb(241, 0, 0);   
+}
+
 #navbar {
 	display: flex;
 	position: fixed;
@@ -116,6 +137,7 @@ li > a {
 .projects-container {
 	display: grid;
 	margin: auto;
+
 }
 
 .projects-container > a {
@@ -250,24 +272,6 @@ footer p {
 footer a {
 	color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -573,24 +577,6 @@ footer a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 1075px) {
 html {
 	scroll-behavior: smooth;
@@ -727,7 +713,7 @@ li > a:hover {
 	grid-gap: 20px;
 	align-items: center;
 	justify-items: center;
-	max-width: 1280px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
